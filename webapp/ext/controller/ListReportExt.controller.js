@@ -8,6 +8,7 @@ sap.ui.define("com.fiorielementso.ext.controller.ListReportExt", [],
                 // alert('onUpload');
                var that=this
                
+               
                 if(!that._Dialog ){
                 that._Dialog = sap.ui.xmlfragment(newLocal,
                     that);
