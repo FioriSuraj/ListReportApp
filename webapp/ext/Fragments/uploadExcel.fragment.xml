@@ -1,0 +1,17 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m" xmlns:u="sap.ui.unified" xmlns:l="sap.ui.layout.form">
+	<Dialog >
+    <l:SimpleForm editable="true">
+                        <l:content>
+                        
+                        <VBox>
+                             <u:FileUploader class="sapUiTinyMarginBegin" id="FileUploaderid" placeholder="Choose a file" name="myFileUpload" change="onhandleUpload1" fileType="xlsx,csv"/>
+                            <Button class="sapUiTinyMarginBegin" text="Upload File" press="onhandleUpload"/>
+                        </VBox>
+                </l:content>
+    
+    </l:SimpleForm>
+    <endButton>
+    <Button text="Cancel" press="onCancel"></Button>
+    </endButton>
+    </Dialog>
+</core:FragmentDefinition>
